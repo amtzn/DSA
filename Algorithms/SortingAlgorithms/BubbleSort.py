@@ -5,6 +5,3 @@ def bubble_sort(A):
       if A[j] > A[j + 1]:
         A[j], A[j + 1] = A[j + 1], A[j]
 
-A = [5,3,1,9,4,2,1,3]
-bubble_sort(A)
-print(A)
